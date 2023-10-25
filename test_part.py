@@ -43,7 +43,7 @@ if __name__ == "__main__":
     ################# to modify ######################
     ################################################## 
     start_time = time.time()
-    base_file="C:/Users/narim/Desktop/POC/Data Processing/DPA-376/data sources/POC_Network_pharmacy_list.xlsx"
+    base_file="POC_Network_pharmacy_list.xlsx"
     data_importation(base_file)
     end_time = time.time()
     execution_time = end_time - start_time
